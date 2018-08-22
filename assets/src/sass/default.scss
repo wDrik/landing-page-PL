@@ -1,5 +1,6 @@
 /*#region ---> Imports <---*/
 @import "variables";
+@import "fonts";
 /*#endregion*/
 
 /*#region ---> Default <---*/
@@ -10,6 +11,7 @@
   list-style: none;
   box-sizing: border-box;
 
+  font-family: 'NexaBold';
 }
 
 .container {
@@ -27,8 +29,20 @@
   color: $white;
 }
 
+.text-primary {
+  color: $primary;
+}
+
+.text-secondary {
+  color: $secondary;
+}
+
 .text-center {
   text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 h2.title {
@@ -61,17 +75,26 @@ h3.title {
   height: auto;
   text-align: center;
   padding: 16px 20px;
-  margin: 0 10px;
   border: none;
   border-radius: 30px;
   font-weight: 600;
   cursor: pointer;
   transition: $transition-default;
   text-transform: uppercase;
+  font-family: 'NexaBold';
 }
 
 .btn--primary {
   background: $green-theme;
+  color: $white;
+
+  &:hover {
+    background: $primary;
+  }
+} 
+
+.btn--secondary {
+  background: $secondary;
   color: $white;
 
   &:hover {
