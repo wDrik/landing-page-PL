@@ -10,7 +10,6 @@ section.challenge-fullbanner {
     position: absolute;
     left: 50%;
     bottom: 100px;
-    padding: 16px 20px;
     transform: translateX(-50%);
   }
 }
@@ -103,6 +102,23 @@ section.challenge-understand {
 
   .wrapper-understand--right {
     padding-left: 10px;
+
+    .understand--content {
+      padding: 20px 20px 10px 150px;
+
+      h4 {
+        font-family: 'Nexa Rust Script L - 0';
+        font-size: 2em;
+        font-weight: lighter;
+      }
+
+      p {
+        font-family: 'HavenirNext Regular';
+        font-weight: 100;
+        font-size: 1.1em;
+      }
+    }
+
 
     .understand-top {
       width: 597px;
@@ -218,6 +234,42 @@ section.challenge-how-it-works {
     padding-top: 150px;
   }
 
+  .wrapper-how-it-works--left,
+  .wrapper-how-it-works--center,
+  .wrapper-how-it-works--right {
+    position: relative;
+  }
+
+  .wrapper-how-it-works--center {
+    .wrapper-how-it-works--content {
+      top: 110px;
+    }
+  }
+
+  .wrapper-how-it-works--right {
+    .wrapper-how-it-works--content {
+      top: 110px;
+    }
+  }
+
+  .wrapper-how-it-works--content {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    p {
+      font-size: 1.05em;
+    }
+
+    p.bottom {
+      font-size: 1em;
+      font-family: 'HavenirNext Regular';
+      font-weight: 100;
+    }
+  }
+
   a.btn {
     position: absolute;
     left: 50%;
@@ -238,11 +290,40 @@ section.challenge-share {
   margin-top: -120px;
   margin-bottom: -100px;
   z-index: 1;
-  padding-top: 220px;
+  padding-top: 260px;
 
   h4 {
     font-family: 'Fontfabric - Nexa Rust Slab Black Shadow 01';
     font-size: 1.8em;
+    position: relative;
+    width: auto;
+    max-width: 680px;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      right: 80px;
+      top: -5px;
+      width: 219px;
+      height: 46px;
+      background: url('../img/bg-discont.png') no-repeat;
+      background-size: contain;
+      background-position: center;
+      z-index: -1;
+    }
+  }
+
+  p.text-white {
+    font-weight: 100;
+    font-size: 1.15em;
+    font-family: 'HavenirNext Regular';
+  }
+
+  p.text-white.mini {
+    font-size: .75em;
   }
 
   ul {
@@ -257,6 +338,24 @@ section.challenge-share {
       font-family: 'Fontfabric - Nexa Rust Slab Black Shadow 01';
       font-size: 1.1em;
       margin: 0 25px;
+      letter-spacing: 1.4px;
+
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .share-wrapper-btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 140px;
+
+    a.btn {
+      min-width: 200px;
+      display: inline-block;
+      margin: 0 15px;
     }
   }
 }
@@ -276,8 +375,8 @@ section.challenge-dish {
     img {
       position: absolute;
       z-index: 2;
-      right: 80px;
-      top: -20px;
+      right: 8%;
+      top: -4%;
     }
   }
 
