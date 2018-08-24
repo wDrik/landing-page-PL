@@ -24,8 +24,6 @@
   }
 }
 
-@media screen and (max-width: 1366px) {}
-
 @media screen and (max-width: 1280px) {
   .container {
     max-width: 991px;
@@ -221,7 +219,7 @@
   }
 
   section.challenge-share .share-wrapper-btn {
-    bottom: 30px;
+    bottom: 40px;
   }
 
   section.challenge-dish .dish--left {
@@ -347,21 +345,75 @@
 }
 
 @media screen and (max-width: 768px) {
-
   section.challenge-fullbanner {
     height: 400px;
     background: url('../img/challenge-fullbanner--mobile.jpg') no-repeat;
     background-size: cover;
+    background-position: center;
 
     .btn {
-      bottom: 60px;
+      bottom: 40px;
     }
+  }
+
+  section.challenge-divider .wrapper-divider--center {
+    transform: rotate(90deg);
+    width: 70px;
+    height: 70px;
+    padding: 0;
+  }
+
+  section.challenge-divider .wrapper-divider {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section.challenge-divider .wrapper-divider--left {
+    padding-left: 0;
+  }
+
+  section.challenge-divider .wrapper-divider--right {
+    padding-right: 0;
+  }
+
+  section.challenge-divider .wrapper-divider--left, 
+  section.challenge-divider .wrapper-divider--right {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  section.challenge-divider .wrapper-divider {
+    padding: 50px 0;
+  }
+
+  section.challenge-call h3 {
+    font-size: 2.4em;
+  }
+
+  section.challenge-call p {
+    font-size: 1.5em;
   }
 }
 
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+  section.challenge-share .share-wrapper-btn {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
 
-@media screen and (max-width: 525px) {}
+  section.challenge-share {
+    padding-bottom: 170px;
+  }
+
+  section.challenge-share .share-wrapper-btn a.btn:first-child {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+
+}
 
 @media screen and (max-width: 425px) {}
 

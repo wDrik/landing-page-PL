@@ -96,6 +96,7 @@ section.challenge-understand {
         color: $secondary;
         font-weight: 800;
         margin: 0 5px;
+
       }
     }
 
@@ -106,6 +107,14 @@ section.challenge-understand {
         span {  
           &:last-child {
             margin-right: 0;
+          }
+        }
+      }
+
+      li:nth-child(6) {
+        span {  
+          &:first-child {
+            margin-left: 0;
           }
         }
       }
