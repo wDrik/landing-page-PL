@@ -96,6 +96,16 @@
     padding-top: 90px;
     font-size: 1.8em;
   }
+
+  section.challenge-fullbanner {
+    height: 500px;
+    
+    .btn {
+      position: absolute;
+      left: 50%;
+      bottom: 60px;
+    }
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -244,6 +254,96 @@
       height: 135px;
     }
   } 
+
+  section.challenge-how-it-works .wrapper-how-it-works {
+    width: 100%;
+    height: 960px;
+    padding-top: 180px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  section.challenge-how-it-works h3 {
+    top: 30px;
+    font-size: 3em;
+  }
+
+  .wrapper-how-it-works--left,
+  .wrapper-how-it-works--center,
+  .wrapper-how-it-works--right {
+    img {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 20px;
+    }
+  }
+
+  section.challenge-how-it-works {
+    .wrapper-how-it-works--content {
+      top: 90px;
+    }
+    
+    .wrapper-how-it-works--center .wrapper-how-it-works--content {
+      top: 80px;
+    }
+
+    .wrapper-how-it-works--right .wrapper-how-it-works--content {
+      top: 90px;
+    }
+  } 
+
+  section.challenge-how-it-works .wrapper-how-it-works--content p {
+    font-size: 0.85em;
+  }
+
+  section.challenge-how-it-works .wrapper-how-it-works--content p.bottom {
+    font-size: 0.9em;
+  }
+
+  section.challenge-share p.text-white {
+    margin-bottom: 10px;
+  }
+
+  section.challenge-share ul {
+    margin: 20px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    li {
+      font-size: 1em;
+      letter-spacing: 1px;
+      min-width: 320px;
+      justify-content: flex-start;
+      margin-bottom: 16px;
+      margin-left: 40px;
+    }
+  }
+
+  section.challenge-share .share-wrapper-btn {
+    width: 465px;
+  }
+
+  section.challenge-call h3 {
+    font-size: 3em;
+  }
+
+  section.challenge-call p {
+    font-size: 1.8em;
+  }
+
+  section.challenge-call {
+    height: 320px;
+  }
+
+  section.challenge-fullbanner {
+    height: 420px;
+  }
+
+  section.challenge-fullbanner .btn {
+    bottom: 40px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
