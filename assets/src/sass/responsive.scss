@@ -393,6 +393,23 @@
   section.challenge-call p {
     font-size: 1.5em;
   }
+
+  section.challenge-share h4:after {
+    display: none;
+  }
+
+  section.challenge-dish {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  section.challenge-divider .wrapper-divider {
+    padding: 40px 0;
+  }
+
+  section.challenge-share {
+    padding-top: 40px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -409,12 +426,175 @@
   section.challenge-share .share-wrapper-btn a.btn:first-child {
     margin-bottom: 10px;
   }
+
+  section.challenge-understand .wrapper-understand--left ul>li span {
+    margin: 0 2px;
+  }
 }
 
 @media screen and (max-width: 525px) {
+  section.challenge-understand .wrapper-understand--right .understand-top {
+    width: 420px;
+    height: 100px;
+  }
+
+  section.challenge-understand .wrapper-understand--right .understand-bottom {
+    width: 420px;
+    height: 200px;
+  }
+
+  section.challenge-understand .wrapper-understand--right .understand--content h4 {
+    font-size: 1.4em;
+  }
+
+  section.challenge-understand .wrapper-understand--right .understand--content p {
+    font-size: 0.8em;
+  }
+
+  section.challenge-share h4 {
+    font-size: 1.5em;
+  }
+
+  section.challenge-dish .dish--right h4 {
+    font-size: 1.5em;
+  }
+
+  section.challenge-understand .wrapper-understand--right .understand--content {
+    padding: 10px 10px 10px 105px;
+  }
+
+  .btn {
+    padding: 16px 10px;
+    min-width: 200px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  section.challenge-understand .wrapper-understand--right .understand-top {
+    width: 360px;
+    height: 90px;
+  }
+
+  section.challenge-understand .wrapper-understand--right .understand-bottom {
+    width: 360px;
+    height: 170px;
+  }
+
+  section.challenge-understand .wrapper-understand--right .understand--content {
+    padding: 10px 10px 10px 90px;
+  }
+
+  section.challenge-understand .wrapper-understand--right .understand--content h4 {
+    font-size: 1.2em;
+    margin: 0;
+    line-height: 1;
+  }
+
+  section.challenge-understand .wrapper-understand--right .understand--content p {
+    font-size: 0.75em;
+  }
+
+  section.challenge-share ul li {
+    font-size: 0.9em;
+  }
+
+  section.challenge-how-it-works h3 {
+    top: 30px;
+    font-size: 2.4em;
+  }
+
+  section.challenge-how-it-works .wrapper-how-it-works {
+    width: 100%;
+    height: 920px;
+    padding-top: 150px;
+  }
+
+  section.challenge-fullbanner {
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  section.challenge-understand .understand-title img {
+    width: 300px;
+    height: 95px;
+  }
+
+  section.challenge-call h3 {
+    font-size: 2em;
+    line-height: 1;
+  }
+
+  section.challenge-call p {
+    font-size: 1.2em;
+  }
+
+  section.challenge-call {
+    height: 250px;
+  }
+
+  section.challenge-understand .wrapper-understand--right .understand-bottom {
+    background: none;
+  }
+
+  section.challenge-understand .wrapper-understand--right .understand-top {
+    background: none;
+  }
+
+  section.challenge-understand .wrapper-understand--right .understand--content h4 {
+    color: $primary;
+  }
+
+  section.challenge-understand .wrapper-understand--right .understand--content p {
+    color: $primary;
+  }
+
+  section.challenge-understand .wrapper-understand--right .understand--content {
+    padding: 0;
+    text-align: center
+  }
+
+  section.challenge-understand .wrapper-understand--right .understand-bottom,
+  section.challenge-understand .wrapper-understand--right .understand-top {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  section.challenge-understand .wrapper-understand--right .understand--content h4 {
+    font-size: 1.8em;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  section.challenge-understand .wrapper-understand--right .understand--content p {
+    font-size: 0.95em;
+  }
+
+  .wrapper-divider--left img {
+    width: 270px;
+    height: 135px;
+  }
+
+  .wrapper-divider--right img {
+    width: 270px;
+    height: 175px;
+  }
+
+  section.challenge-dish .dish--right h4 {
+    font-size: 1.3em;
+  }
+
+  section.challenge-understand .understand-title img {
+    width: 270px;
+    height: 85px;
+  }
 
 }
 
-@media screen and (max-width: 425px) {}
-
-@media screen and (max-width: 375px) {}
+@media screen and (max-width: 375px) {
+  section.challenge-share ul li {
+    min-width: 290px;
+    font-size: 0.8em;
+  }
+}
